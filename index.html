@@ -10,38 +10,39 @@
 </head>
 
 <body>
-    <header class="header">
-        <div>
-            <input type="checkbox" id="menu" >
-            <label for="menu">
-                <a href="#"><img src="./img/menu-black.svg"></a>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container-rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
             </label>
             <ul class="lista-menu">
-                <li class="lista-title">
-                    Categorias
+                <li class="lista-menu-titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">PROGRAMAÇÃO</a>
                 </li>
-                <li class="lista-text">
-                    <a href="#">PROGRAMAÇÃO</a>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">FRONT-END</a>
                 </li>
-                <li class="lista-text">
-                    <a href="#">FRONT-END</a>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">INFRAESTRUTURA</a>
                 </li>
-                <li class="lista-text">
-                    <a href="#">INFRAESTRUTURA</a>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">BUSINESS</a>
                 </li>
-                <li class="lista-text">
-                    <a href="#">BUSINESS</a>
-                </li>
-                <li class="lista-text">
-                    <a href="#">DESIGN & UX</a>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">DESIGN & UX</a>
                 </li>
             </ul>
             <a href="#"><img src="./img/logo.svg"></a>
         </div>
-        <div>
-            <a href="#"><img src="./img/favoritos.svg"></a>
-            <a href="#"><img src="./img/sacola.png"></a>
-            <a href="#"><img src="./img/usuario.png"></a>
+        <div class="container">
+            <a href="#"><img src="./img/favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link"><img src="./img/sacola.png" alt="Carrinhos de compras"
+                    class="container__imagem"></a>
+            <a href="#" class="container__link"><img src="./img/usuario.png" alt="Meu perfil"
+                    class="container__imagem"></a>
         </div>
     </header>
     <main>
