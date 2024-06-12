@@ -1,0 +1,52 @@
+
+
+.header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input {
+    display: none;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+header input:checked~.lista-menu{
+    display: block;
+}
+
+.lista-menu {
+    background-color: var(--white);
+    width: 11.05rem;
+    height: 12rem;
+}
+
+.lista-menu a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--azul);
+    font-family: var(--font-family);
+    font-weight: 400;
+    display: flex;
+}    
+
+.lista-title {
+    color: var(--yellow);
+    padding: 0.3rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+

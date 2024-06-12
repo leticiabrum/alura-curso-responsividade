@@ -1,0 +1,14 @@
+main h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    color: var(--white);
+}
+
+main p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.search {
+    font-weight: 400;
+}
