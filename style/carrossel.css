@@ -1,0 +1,75 @@
+.carrossel-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    color: var(--amarelo);
+    background-color: var(--branco);
+    text-align: center;
+    font-size: 18px;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none !important;
+}
+
+.swiper-pagination {
+    position: initial !important;
+    margin: 0.5em 0 !important;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card-descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao h3 {
+    font-weight: 700;
+    color: var(--amarelo);
+    font-family: var(--font-family);
+}
+
+.nomedolivro {
+   color: var(--azul);
+   font-family: var(--font-family);
+   font-weight: 700; 
+   font-size: 18px;
+}
+
+.descricao p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: #000;
+    font-size: 14px;
+}
+
+.card-acoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ancora-acoes {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+    font-family: var(--font-family);
+    background-color: var(--amarelo);
+    padding: 1rem 1.5rem;
+}
+
+.lista-acoes {
+    display: flex;
+}

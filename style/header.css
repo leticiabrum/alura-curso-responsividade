@@ -1,5 +1,5 @@
 
-.cabeçalho__menu-hamburguer {
+.cabecalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     background-image: url("../img/menu-fechado.svg");
@@ -8,25 +8,25 @@
     display: inline-block;
 }
 
-.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
+.container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
     background-image: url("../img/menu-aberto.png");
+}
+
+.container {
+    display: flex;
+    align-items: center;
 }
 
 .container__botao:checked~.container__rotulo {
     background: var(--azul-degrade);
 }
 
-.cabeçalho {
+.cabecalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-}
-
-.container {
-    display: flex;
-    align-items: center;
 }
 
 .container__imagem {
@@ -44,9 +44,15 @@
     display: block;
 }
 
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
 
 .lista-menu__titulo {
-    color: var(--laranja);
+    color: var(--amarelo);
     font-weight: 700;
 }
 
