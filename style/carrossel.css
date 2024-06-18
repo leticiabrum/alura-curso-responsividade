@@ -30,9 +30,25 @@
     padding: 1rem;
 }
 
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 .card-descricao {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.card-descricao .escritora {
+    display: flex;
+    justify-content: space-between;
+}
+
+.estrelinhas {
+    width: 7rem;
 }
 
 .descricao h3 {
@@ -41,7 +57,7 @@
     font-family: var(--font-family);
 }
 
-.nomedolivro {
+.nome {
    color: var(--azul);
    font-family: var(--font-family);
    font-weight: 700; 
@@ -73,3 +89,4 @@
 .lista-acoes {
     display: flex;
 }
+

@@ -1,0 +1,76 @@
+.topicos {
+    background: var(--azul-degrade);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.topicos-titulo {
+    font-family: var(--font-family);
+    font-weight: 300;
+    color: var(--branco);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.topicos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos-item {
+    margin: 2rem 0.5rem;
+}
+
+.topicos-ancora {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+    font-family: var(--font-family);
+    background-color: var(--amarelo);
+    padding: 1rem;
+    font-size: 14px;
+}
+
+.contato-titulo {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.contato-texto {
+    font-family: var(--font-family);
+    font-weight: 300;
+}
+
+.email {
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    padding: 1rem;
+    border-radius: 24px;
+    width: 100%;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.email::placeholder {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    padding: 0rem 3rem;
+    background: url("../img/email.png") no-repeat;
+    background-position: 1rem;
+}
