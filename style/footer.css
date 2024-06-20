@@ -1,9 +1,8 @@
-
 .footer {
     padding: 0.5rem 1rem;
 }
 
-.grupo-alura {
+.texto-footer {
     font-family: var(--font-family);
     margin: 0.5rem 1rem;
     font-weight: 400;

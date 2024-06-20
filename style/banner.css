@@ -13,10 +13,6 @@
     margin: 1rem 0;
 }
 
-.banner input{
-    margin: 1rem 0;
-}
-
 .search {
     background-color: transparent;
     border: 1px solid var(--branco);
@@ -24,6 +20,7 @@
     border-radius: 24px;
     width: 100%;
     color: var(--branco);
+    margin: 1rem 0;
 }
 
 .search::placeholder {
