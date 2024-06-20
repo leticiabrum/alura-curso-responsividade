@@ -1,35 +1,8 @@
-.topicos {
-    background: var(--azul-degrade);
-    padding: 1rem 0;
-    text-align: center;
-}
-
-.topicos-titulo {
-    font-family: var(--font-family);
-    font-weight: 300;
-    color: var(--branco);
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.topicos-lista {
+.contato {
+    margin: 1.5rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.topicos-item {
-    margin: 2rem 0.5rem;
-}
-
-.topicos-ancora {
-    text-decoration: none;
-    color: var(--branco);
-    font-weight: 700;
-    font-family: var(--font-family);
-    background-color: var(--amarelo);
-    padding: 1rem;
-    font-size: 14px;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .contato-titulo {
@@ -58,7 +31,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-transform: uppercase;
+    width: 90%;
+    align-items: center;
+    color: var(--azul);
 }
 
 .email::placeholder {
