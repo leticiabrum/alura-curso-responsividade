@@ -58,4 +58,21 @@
 
 @media screen and (min-width: 1311px) {
 
+    .carrossel-container {
+        display: flex;
+        align-items: center;
+        margin: 0 8rem;
+    }
+
+    .swiper-pagination {
+        margin: 1rem 0 !important;
+    }
+
+    .swiper {
+        width: 40%;
+    }
+
+    .swiper-wrapper {
+        height: 12rem !important;
+    }
 }
