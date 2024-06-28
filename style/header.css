@@ -1,6 +1,7 @@
-.cabeçalho-menu-hamburguer {
+.cabecalho-menu-hamburguer {
     width: 24px;
     height: 24px;
+    /* background-image: url("../img/menu-aberto.png"); */
     background-image: url("../img/menu-fechado.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -8,7 +9,9 @@
 }
 
 .container-botao:checked~.container-label > .cabecalho-menu-hamburguer {
+    /* background-image: url("../img/menu-fechado.png"); */
     background-image: url("../img/menu-aberto.png");
+    border: 1px solid red;
 }
 
 .container-botao:checked~.container-label {
