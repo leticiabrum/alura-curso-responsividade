@@ -1,5 +1,5 @@
-.carrossel-title {
-    font-family: var(--font-family);
+.carrossel-titulo {
+    font-family: var(--poppins);
     font-weight: 700;
     color: var(--amarelo);
     background-color: var(--branco);
@@ -8,7 +8,12 @@
     padding: 1rem 0 0.5rem 0;
 }
 
-.swiper-slide img {
+.swiper-pagination {
+    position: initial !important;
+    margin: 0.5em 0 !important;
+}
+
+.swiper-imagem {
     width: 100%;
 }
 
@@ -17,76 +22,40 @@
     display: none !important;
 }
 
-.swiper-pagination {
-    position: initial !important;
-    margin: 0.5em 0 !important;
+@media screen and (min-width: 1024px) {
+
+    .carrossel-titulo {
+        font-size: 26px;
+        padding: 2rem 0 1rem 0;
+    }
+
+    .swiper-pagination {
+        margin: 2rem 0 3rem 0 !important;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block !important;
+        top: 60%;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+        align-items: center;
+        height: 17rem !important;
+    }
 }
 
-.card {
-    background: var(--branco);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin: 1rem;
-    padding: 1rem;
-}
+@media screen and (min-width: 1311px) {
 
-.descricao {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
 }
-
-.card-descricao {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem;
-}
-
-.card-descricao .escritora {
-    display: flex;
-    justify-content: space-between;
-}
-
-.estrelinhas {
-    width: 7rem;
-}
-
-.descricao h3 {
-    font-weight: 700;
-    color: var(--amarelo);
-    font-family: var(--font-family);
-}
-
-.nome {
-   color: var(--azul);
-   font-family: var(--font-family);
-   font-weight: 700; 
-   font-size: 18px;
-}
-
-.descricao p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    color: #000;
-    font-size: 14px;
-}
-
-.card-acoes {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.ancora-acoes {
-    text-decoration: none;
-    color: var(--branco);
-    font-weight: 700;
-    font-family: var(--font-family);
-    background-color: var(--amarelo);
-    padding: 1rem 1.5rem;
-}
-
-.lista-acoes {
-    display: flex;
-}
-

@@ -5,7 +5,7 @@
 }
 
 .topicos-titulo {
-    font-family: var(--font-family);
+    font-family: var(--poppins);
     font-weight: 300;
     color: var(--branco);
     text-align: center;
@@ -26,51 +26,25 @@
     text-decoration: none;
     color: var(--branco);
     font-weight: 700;
-    font-family: var(--font-family);
+    font-family: var(--poppins);
     background-color: var(--amarelo);
     padding: 1rem;
     font-size: 14px;
 }
 
-.contato-titulo {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    background: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
-}
 
-.contato-texto {
-    font-family: var(--font-family);
-    font-weight: 300;
-}
+@media screen and (min-width: 1024px) {
 
-.email {
-    background-color: transparent;
-    border: 1px solid var(--azul);
-    padding: 1rem;
-    border-radius: 24px;
-    width: 100%;
-    background: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
-}
+    .topicos-lista {
+        margin: 2rem 3rem;
+    }
 
-.email::placeholder {
-    font-family: var(--font-family);
-    font-size: 14px;
-    font-weight: 400;
-    background: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
-    padding: 0rem 3rem;
-    background: url("../img/email.png") no-repeat;
-    background-position: 1rem;
+    .topicos-titulo {
+        font-size: 24px;
+        padding: 2rem 0 0 0;
+    }
+
+    .topicos-ancora {
+        font-size: 24px;
+    }
 }
